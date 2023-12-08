@@ -37,8 +37,10 @@ struct CounterApp: App {
       }
 
     }
+
   }
 
+  
   private func reset() {
     print("before state reset")
     state.count = 0
