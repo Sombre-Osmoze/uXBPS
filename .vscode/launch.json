@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:uXBPS}",
+            "name": "Debug uXBPS",
+            "program": "${workspaceFolder:uXBPS}/.build/debug/uXBPS",
+            "preLaunchTask": "swift: Build Debug uXBPS",
+            "console": "internalConsole"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:uXBPS}",
+            "name": "Release uXBPS",
+            "program": "${workspaceFolder:uXBPS}/.build/release/uXBPS",
+            "preLaunchTask": "swift: Build Release uXBPS"
+        }
+    ]
+}
